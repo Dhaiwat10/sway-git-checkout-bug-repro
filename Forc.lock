@@ -1,0 +1,13 @@
+[[package]]
+name = 'core'
+source = 'path+from-root-714AEA6A76E743D4'
+
+[[package]]
+name = 'std'
+source = 'git+https://github.com/FuelLabs/sway?branch=feature/fuel-core-0.18#a11538053fd815f92d0374543ab40a975fa23dbd'
+dependencies = ['core']
+
+[[package]]
+name = 'sway-git-checkout-bug-repro'
+source = 'member'
+dependencies = ['std']
